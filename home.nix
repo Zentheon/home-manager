@@ -2,11 +2,11 @@
 
 {
   imports = [
-    ./desktop/default.nix
-    ./matugen/default.nix
-    ./programs/default.nix
-    ./xdg/default.nix
-    ./shell/default.nix
+    ./desktop
+    ./matugen
+    ./programs
+    ./xdg
+    ./shell
   ];
 
   home.username = "zentheon";

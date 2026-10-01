@@ -6,11 +6,11 @@
 #
 {
   imports = [
-    ./git/default.nix
-    ./kitty/default.nix
-    ./minecraft/default.nix
-    ./yazi/default.nix
-    ./zed/default.nix
+    ./git
+    ./kitty
+    ./minecraft
+    ./yazi
+    ./zed
   ];
 
   home.packages = [
