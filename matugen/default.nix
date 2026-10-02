@@ -31,6 +31,10 @@ let
     [templates.discord-system24]
     input_path = '${templates}/templates/system24.css'
     output_path = '${config.xdg.configHome}/vesktop/themes/system24.css'
+
+    [templates.yazi]
+    input_path = '${templates}/templates/yazi-theme.toml'
+    output_path = '${config.xdg.configHome}/yazi/theme.tomle'
   '';
   zenCss = ''
     @import url("${templates}/templates/zen-usercontent.css");
